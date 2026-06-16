@@ -8,4 +8,6 @@ codex plugin marketplace add sichengchen/codex-plugins
 
 ## Plugins
 
-- `cjk-text-layout` - Audit Chinese, Japanese, and Korean text layout against W3C requirements.
+| Plugin | Description | Category | Capabilities | Version |
+| --- | --- | --- | --- | --- |
+| `cjk-text-layout` | Audit CJK typography and layout against W3C requirements. | Developer Tools | Analyze, Review, Write | 0.1.0+codex.20260616051000 |
