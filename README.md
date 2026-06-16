@@ -1,4 +1,4 @@
-# Codex Plugins
+# Sicheng Chen Codex Plugins
 
 Install this marketplace:
 
