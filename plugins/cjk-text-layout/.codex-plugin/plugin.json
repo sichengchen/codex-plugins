@@ -16,7 +16,7 @@
     "localization",
     "accessibility"
   ],
-  "skills": "./skills/",
+  "skills": "./source/cjk-layout-audit-skill/cjk-layout-audit/",
   "interface": {
     "displayName": "CJK Text Layout",
     "shortDescription": "Audit CJK typography and layout against W3C requirements.",
