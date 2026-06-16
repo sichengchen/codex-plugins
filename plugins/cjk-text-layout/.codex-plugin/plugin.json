@@ -1,6 +1,6 @@
 {
   "name": "cjk-text-layout",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260616045642",
   "description": "Audit Chinese, Japanese, and Korean text layout against W3C requirements.",
   "author": {
     "name": "Sicheng Chen",
@@ -16,7 +16,7 @@
     "localization",
     "accessibility"
   ],
-  "skills": "./source/cjk-layout-audit-skill/cjk-layout-audit/",
+  "skills": "./source/cjk-layout-audit-skill/",
   "interface": {
     "displayName": "CJK Text Layout",
     "shortDescription": "Audit CJK typography and layout against W3C requirements.",
