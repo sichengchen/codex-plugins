@@ -1,13 +1,13 @@
 {
   "name": "cjk-text-layout",
-  "version": "0.1.0+codex.20260616051000",
-  "description": "Audit Chinese, Japanese, and Korean text layout against W3C requirements.",
+  "version": "0.1.0+codex.20260617021526",
+  "description": "Build and audit Chinese, Japanese, and Korean text layout against W3C requirements.",
   "author": {
     "name": "Sicheng Chen",
     "url": "https://github.com/sichengchen"
   },
-  "homepage": "https://github.com/sichengchen/cjk-layout-audit-skill",
-  "repository": "https://github.com/sichengchen/cjk-layout-audit-skill",
+  "homepage": "https://github.com/sichengchen/cjk-layout-skills",
+  "repository": "https://github.com/sichengchen/cjk-layout-skills",
   "license": "MIT",
   "keywords": [
     "cjk",
@@ -19,8 +19,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "CJK Text Layout",
-    "shortDescription": "Audit CJK typography and layout against W3C requirements.",
-    "longDescription": "CJK Text Layout helps agents review Chinese, Japanese, and Korean rendered text for locale-aware typography issues including line breaking, punctuation placement, ruby annotations, vertical writing, mixed-script spacing, justification, and ebook or PDF page layout.",
+    "shortDescription": "Build and audit CJK typography against W3C requirements.",
+    "longDescription": "CJK Text Layout helps agents implement and audit Chinese, Japanese, and Korean text layout according to W3C JLReq, CLReq, and KLReq, covering writing modes, line breaking, punctuation placement, ruby and annotations, vertical text, mixed-script spacing, justification, and ebook or PDF page layout.",
     "developerName": "Sicheng Chen",
     "category": "Developer Tools",
     "capabilities": [
@@ -29,8 +29,8 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Audit this CJK webpage for W3C text layout issues.",
-      "Check this EPUB or PDF for Japanese, Chinese, or Korean layout defects.",
+      "Use $cjk-layout to implement CJK text layout against W3C requirements.",
+      "Use $cjk-layout-audit to audit this CJK webpage for layout issues.",
       "Review CJK line breaking, punctuation, ruby, spacing, and vertical text."
     ],
     "brandColor": "#2563EB"

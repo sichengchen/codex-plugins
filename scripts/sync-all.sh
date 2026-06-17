@@ -4,7 +4,7 @@ set -euo pipefail
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 script_dir="$repo_root/scripts"
 
-"$script_dir/sync-cjk-layout-audit.sh"
+"$script_dir/sync-cjk-text-layout.sh"
 
 python3 - "$repo_root" <<'PY_README'
 import json
